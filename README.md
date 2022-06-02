@@ -1,1 +1,1 @@
-# rsschool-cv
+https://denbern.github.io/rsschool-cv/
