@@ -125,6 +125,9 @@ h2 {
     transform: 0.3s;
     padding: 0px;
 }
+code {
+display: flex;
+}
 
 
 /******Footer*****/
@@ -190,7 +193,14 @@ footer {
     .section-item:nth-child(6) {
         border-bottom: none;
     }
-  }
+    code {
+        padding: 10px 0 10px 0;
+    }
+    ul {
+        padding-left: 15px;
+    }
+}
+   
 
 
 
