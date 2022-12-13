@@ -15,6 +15,11 @@
 
 <body>
     <header class="header">
+        <div class="burger-button">
+            <div class='line-burger'></div>
+            <div class='line-burger'></div>
+            <div class='line-burger'></div>
+        </div>
         <div class="container container-header">
             <div class="name-img">
                 <h1 class="name">
@@ -25,12 +30,11 @@
                     <h3>Beginner Front-End Developer</h3>
                 </div>
             </div>
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                  <span></span>
-                </label>
             <nav class="navigation">
+                <div class="close-burger-menu">
+                    <div class="close-menu"></div>
+                    <div class="close-menu"></div>
+                </div>
                 <ul class="list">
                     <li class="list-item list-contact"><a href="#Contacts">Contacts</a> </li>
                     <li class="list-item list-about"><a href="#About">About</a></li>
@@ -40,7 +44,6 @@
                     <li class="list-item list-language"><a href="#Language">Language</a> </li>
                 </ul>
             </nav>
-        </div>
         </div>
     </header>
 
@@ -62,16 +65,17 @@
 
             <section class="section-item about" id="About">
                 <h2>About</h2>
-                <p>Started studying JS/FRONT-END course.<br>
-                    STAGE 0 at RS School.<br>
-                    In the future I want to take<br>
-                    <a href="https://rs.school/js/">STAGE 1</a> course and get to STAGE 2.
+                <p>Start again studying JS/FRONT-END course.<br>
+                    JS/FE Pre-School 2022Q2 - 100% completed.<br>
+                    JavaScript/Front-End 2022Q3 - 50% completed.<br>
+                    Now, I started JS/FE Pre-School 2022Q4<br>
                 </p>
             </section>
 
             <section class="section-item skills" id="Skills">
                 <h2>Skills</h2>
                 <ul class="li-skills">
+                    <li>JavaScript</li>
                     <li>HTML,CSS5</li>
                     <li>Git, GitHub</li>
                     <li>VS Code</li>
@@ -122,8 +126,8 @@
             </div>
             <a href="https://rs.school/js-stage0/" class="rss"></a>
         </div>
-
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
